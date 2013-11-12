@@ -25,7 +25,7 @@ main(int argc, const char * argv[])
 
 
 	mpz_t i; mpz_init(i); 
-	char r[20];
+	char r[40];
 	mpz_t k; mpz_init(k);
     for (;;) {
 		mpz_add_ui(i, i, 1);
